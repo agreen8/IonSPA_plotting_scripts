@@ -10,10 +10,10 @@ import matplotlib.pyplot as plt
 import glob
 import os
 
-file_name = r'../ionspadev-main/ionspadev-main/rescale_noweight_dHdS.txt'
-# file_name = r'../ionspadev-main/ionspadev-main/rescale_10weight_dHdS.txt'
-# file_name = r'../ionspadev-main/ionspadev-main/400_rescale_noweight_dHdS.txt'
-# file_name = r'../ionspadev-main/ionspadev-main/400_rescale_10weight_dHdS.txt'
+file_name = r'rescale_noweight_dHdS.txt'
+# file_name = r'rescale_10weight_dHdS.txt'
+# file_name = r'400_rescale_noweight_dHdS.txt'
+# file_name = r'400_rescale_10weight_dHdS.txt'
 rescale_noweights = np.loadtxt(file_name, delimiter='\t', dtype='str')
 
 stx_13_low_dH = []

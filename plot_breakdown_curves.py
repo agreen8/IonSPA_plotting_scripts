@@ -27,7 +27,7 @@ for trialname in glob.glob(trial_name_path):
     plt.xticks(fontsize=24)
     plt.yticks(fontsize=24)
 
-
+# plt.savefig('whatever_you_want.pdf', dpi=100)
 
 
 
